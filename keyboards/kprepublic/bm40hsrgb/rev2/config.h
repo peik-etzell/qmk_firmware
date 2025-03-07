@@ -16,3 +16,7 @@
 #pragma once
 
 #define IS31FL3733_I2C_ADDRESS_1 IS31FL3733_I2C_ADDRESS_GND_GND
+
+// https://docs.qmk.fm/tap_hold
+#define HOLD_ON_OTHER_KEY_PRESS
+#define QUICK_TAP_TERM 0

@@ -15,9 +15,6 @@
  */
 #include QMK_KEYBOARD_H
 
-// https://docs.qmk.fm/tap_hold
-#define HOLD_ON_OTHER_KEY_PRESS
-
 enum layers { _QWERTY, _ARROWS, _NUMBERS, _FUNCTIONS, _META };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
