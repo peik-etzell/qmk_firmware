@@ -1,0 +1,10 @@
+.build
+.github
+.vscode
+builddefs
+data
+lib
+platforms
+quantum
+tests
+*.hex
